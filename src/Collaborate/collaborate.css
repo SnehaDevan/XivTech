@@ -1,0 +1,96 @@
+.container{
+    padding-left: 18vw;
+}
+.child1_content{
+    display: flex;
+    flex-direction: row;
+    width:60vw;
+    font-family:'Times New Roman', Times, serif;
+}
+.child1_text h2{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.child1_text h1{
+   font-size: 4rem;
+   font-weight: lighter;
+}
+
+.child2_content{
+    display: flex;
+    flex-direction: row;
+    width:60vw;
+    font-family:'Times New Roman', Times, serif;
+}
+.child2_text h2{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.child2_text h1{
+   font-size: 4rem;
+   font-weight: lighter;
+}
+.child3_content{
+    display: flex;
+    flex-direction: row;
+    width:60vw;
+    font-family:'Times New Roman', Times, serif;
+}
+.child3_text h2{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.child3_text h1{
+   font-size: 4rem;
+   font-weight: lighter;
+}
+.child4_content{
+    display: flex;
+    flex-direction: row;
+    width:60vw;
+    font-family:'Times New Roman', Times, serif;
+}
+.child4_text h2{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.child4_text h1{
+   font-size: 4rem;
+   font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .child1_content{
+        display: flex;
+        flex-direction:column;
+    }
+    .child2_content{
+        display: flex;
+        flex-direction:column;
+    }
+    .child3_content{
+        display: flex;
+        flex-direction:column;
+    }
+    .child4_content{
+        display: flex;
+        flex-direction:column;
+    }
+  }
+
+  .Button{
+    background-color: black;
+    color: white;
+    width:12vw;
+    height:6vh;
+    font-size: larger;
+  }
+
+  .Button:hover{
+    background-color:white;
+    color:black;
+  }
